@@ -2,21 +2,7 @@ from module import *
 
 # Variable
 
-dataBarang = []
-dataBarang.append({
-    'KODE_BARANG'   : '8999909028234',
-    'NAMA_BARANG'   : 'DJI SAM SOE KRETEK 12',
-    'JENIS_BARANG'  : 'ROKOK',
-    'JUMLAH_BARANG' : 36,
-    'HARGA_SATUAN'  : 17000 # Rupiah
-})
-dataBarang.append({
-    'KODE_BARANG'   : '8999909096004',
-    'NAMA_BARANG'   : 'SAMPOERNA MILD FILTER 16',
-    'JENIS_BARANG'  : 'ROKOK',
-    'JUMLAH_BARANG' : 24,
-    'HARGA_SATUAN'  : 1500 # Rupiah
-})
+filename = 'barang.csv'
 
 # Main Program
 
@@ -39,13 +25,13 @@ while True:
     menu = input('PILIH MENU : ')
     
     if menu == '1':
-        viewData(dataBarang)
+        viewData(filename)
     elif menu == '2':
-        dataBarang.append(addData())
+        addData(filename)
     elif menu == '3':
-        del dataBarang[deleteData(dataBarang)]
+        deleteData(filename)
     elif menu == '4':
-        searchData(dataBarang)
+        searchData(filename)
     elif menu == 'x' or menu == 'X':
         break
     else:

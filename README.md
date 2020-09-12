@@ -1,5 +1,5 @@
 # PROGRAM MANAJEMEN BARANG
-    Program manajemen barang adalah sebuah program berbasis command line yang mengatur / memanajemen barang-barang melalui kontrol manusia. Program ini mempunyai kemampuan untuk melihat, menambah, menghapus, dan mencari barang sesuai dengan spesifikasi barang yang telah diatur.
+Program manajemen barang adalah sebuah program berbasis command line yang mengatur / memanajemen barang-barang melalui kontrol manusia. Program ini mempunyai kemampuan untuk melihat, menambah, menghapus, dan mencari barang sesuai dengan spesifikasi barang yang telah diatur.
 
 ## Feature
 1. Melihat (view)
